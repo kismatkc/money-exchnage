@@ -58,19 +58,26 @@ body {
         width: 4rem;
         border: none;
         &:focus {
+          outline: none;
         }
       }
     }
     .swapBox {
       @include spaceBetween;
       font-size: 2rem;
-      button {
+      color: #5fbaa7;
+
+      #swap {
         font-size: 2rem;
+        color: white;
+        background-color: #5fbaa7;
       }
     }
     .secondCurrency {
       @include spaceBetween;
       font-size: 2rem;
+      #currencyTwoAmount {
+      }
     }
   }
 }

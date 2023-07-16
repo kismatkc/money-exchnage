@@ -58,13 +58,19 @@ body {
   width: 4rem;
   border: none;
 }
+.moneyExchangeContainer__currencies .firstCurrency #currencyOneAmount:focus {
+  outline: none;
+}
 .moneyExchangeContainer__currencies .swapBox {
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
+  color: #5fbaa7;
 }
-.moneyExchangeContainer__currencies .swapBox button {
+.moneyExchangeContainer__currencies .swapBox #swap {
   font-size: 2rem;
+  color: white;
+  background-color: #5fbaa7;
 }
 .moneyExchangeContainer__currencies .secondCurrency {
   display: flex;
