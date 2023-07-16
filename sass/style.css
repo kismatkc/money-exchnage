@@ -57,6 +57,7 @@ body {
 .moneyExchangeContainer__currencies .firstCurrency #currencyOneAmount {
   width: 4rem;
   border: none;
+  font-size: 2rem;
 }
 .moneyExchangeContainer__currencies .firstCurrency #currencyOneAmount:focus {
   outline: none;

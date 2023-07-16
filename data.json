@@ -1,0 +1,14 @@
+{
+  "name": "John Doe",
+  "age": 30,
+  "email": "johndoe@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "New York",
+    "state": "NY",
+    "zipcode": "10001"
+  },
+  "phone_numbers": ["+1-555-123-4567", "+1-555-987-6543"],
+  "is_employed": true,
+  "languages": ["English", "Spanish", "French"]
+}
